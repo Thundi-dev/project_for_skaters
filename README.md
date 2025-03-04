@@ -179,5 +179,7 @@
 
 Главная страница.
 На ней мы видим боковую панель, которая отвечает за основные действия
+![image](https://github.com/user-attachments/assets/f299ba6e-1f5c-409e-a201-db572eebcb53)
+![image](https://github.com/user-attachments/assets/34fca71a-7166-42fa-b1c9-e0b90c5fffe2)
 
 
