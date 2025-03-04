@@ -12,8 +12,19 @@ from sklearn.metrics.pairwise import cosine_similarity
 df_grouped = pd.read_csv('df_grouped.csv')
 scores = pd.read_csv('scores.csv')
 
+def remove_zero_columns(df):
+  cols_to_drop = []
+  for col in df.columns:
+    if pd.api.types.is_numeric_dtype(df[col]):
+      if (df[col] == 0).all():
+        cols_to_drop.append(col)
+
+  df = df.drop(columns=cols_to_drop)
+  return df
+
+df_grouped = remove_zero_columns(df_grouped)
 # Копия данных для обработки
-df_grouped2 = df_grouped.copy().drop('title', axis=1)
+df_grouped2 = df_grouped.copy()
 
 # Функция для удаления юнитов с малым количеством данных
 def remove_units(df):
