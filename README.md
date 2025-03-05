@@ -186,8 +186,11 @@
 ![image](https://github.com/user-attachments/assets/6a1b1aba-7952-4b4b-b2a8-d2a2b17a238e) 
 
 Главная страница.
-На ней мы видим боковую панель, которая отвечает за основные действия
+На ней мы видим:
+- боковую панель, которая отвечает за основные действия
+- главный экран, на котором мы видим 4 строчки нашего датасета, описание функционала и 
 ![image](https://github.com/user-attachments/assets/f299ba6e-1f5c-409e-a201-db572eebcb53)
-![image](https://github.com/user-attachments/assets/34fca71a-7166-42fa-b1c9-e0b90c5fffe2)
 
 ![image](https://github.com/user-attachments/assets/c564bc96-75f5-46ed-9e5d-79fdef309d60)
+
+![image](https://github.com/user-attachments/assets/34fca71a-7166-42fa-b1c9-e0b90c5fffe2)
