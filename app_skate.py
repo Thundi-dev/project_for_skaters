@@ -338,6 +338,6 @@ else:
     st.write(f'Всего юнитов в датасете: {len(df_grouped['unit_id'].unique())}')
     st.dataframe(df_grouped.head())
     st.expander("📋 Показать список элементов"):
-    st.markdown(f"""<p style='color: #666; font-style: italic;'>Тут вы можете посмотреть полное название элементов.</p>""",unsafe_allow_html=True)
-    st.write("Список элементов фигурного катания:")
-    st.dataframe(styled_df, hide_index=True)  # Отображаем стилизованный DataFrame
+        st.markdown(f"""<p style='color: #666; font-style: italic;'>Тут вы можете посмотреть полное название элементов.</p>""",unsafe_allow_html=True)
+        st.write("Список элементов фигурного катания:")
+        st.dataframe(styled_df, hide_index=True)  # Отображаем стилизованный DataFrame
